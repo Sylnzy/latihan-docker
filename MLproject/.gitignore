@@ -30,10 +30,6 @@ credit_scoring_docker/
 *.tar
 *.gz
 
-# Data files (jika besar)
-*.csv
-*.parquet
-*.feather
 
 # Jupyter Notebook
 .ipynb_checkpoints/
