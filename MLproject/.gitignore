@@ -1,0 +1,61 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# MLflow
+mlruns/
+mlartifacts/
+*.db
+*.sqlite
+
+# Model files (biasanya besar)
+*.pkl
+*.joblib
+*.h5
+*.pb
+*.onnx
+*.pth
+*.pt
+
+# Docker build files
+credit_scoring_docker/
+*.tar
+*.gz
+
+# Data files (jika besar)
+*.csv
+*.parquet
+*.feather
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large model artifacts
+model/
+model_dir/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
