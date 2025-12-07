@@ -1,0 +1,31 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.9
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+mlflow_version: 2.18.0
+model_size_bytes: 625010411
+model_uuid: 0b0909b120c146cabac9bbaacb0883fc
+run_id: 313ddd611aed4ad3b4aa533582fd65f9
+signature:
+  inputs: '[{"type": "double", "name": "Age", "required": true}, {"type": "long",
+    "name": "Credit_Mix", "required": true}, {"type": "long", "name": "Payment_of_Min_Amount",
+    "required": true}, {"type": "long", "name": "Payment_Behaviour", "required": true},
+    {"type": "double", "name": "pc1_1", "required": true}, {"type": "double", "name":
+    "pc1_2", "required": true}, {"type": "double", "name": "pc1_3", "required": true},
+    {"type": "double", "name": "pc1_4", "required": true}, {"type": "double", "name":
+    "pc1_5", "required": true}, {"type": "double", "name": "pc2_1", "required": true},
+    {"type": "double", "name": "pc2_2", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2025-12-06 13:28:06.182921'
